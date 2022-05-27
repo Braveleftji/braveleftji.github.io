@@ -40,6 +40,7 @@ tags: [느리지만 확실하게 !, langsam aber sicher,Java]     # TAG names sh
 `s`가 `zero` 또는 `0`으로 시작하는 경우는 주어지지 않습니다.
 `return` 값이 `1` 이상 `2,000,000,000` 이하의 정수가 되는 올바른 입력만 `s`로 주어집니다.
 입출력 예
+
 |s	                |result|
 |:---|:---|
 |"one4seveneight"|	1478|
@@ -87,7 +88,7 @@ public class solution {
         String tempStr="";
         String[] sArray = s.split("");
         for(int i=0; i<sArray.length;i++){
-            if (sArray[i].matches("[a-z A-Z]")){
+            if (sArray[i].matches("[a-z]")){
                 tempStr+=sArray[i];
                 if(temp.containsKey(tempStr)){
                     answerStr+=temp.get(tempStr);
@@ -106,6 +107,14 @@ public class solution {
         ss.solution("one4seveneight");
     }
 }
+/*
 //replaceAll을 깜빡했다..
+    String[] arr = {"zero","one","two","three","four","five","six","seven","eight","nine"};
+    for (int i = 0; i < arr.length; i++) {
+        s.replaceAll(arr[i],String.valueOf(i));
+    }
+    answer = Integer.parseInt(s);
+//이런식으로 해도될듯
+*/
 
 ```
