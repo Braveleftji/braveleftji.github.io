@@ -16,7 +16,7 @@ tags: [느리지만 확실하게 !, langsam aber sicher,Java]     # TAG names sh
 섬나라 아일랜드에 몇 개의 섬이 있는지 구하는 프로그램을 작성하세요.
 
 
-![img](/img/CodingTest4/img1.png)
+![img](/img/CodingTest4/img1.jpg)
 
 만약 위와 같다면 섬의 개수는 `5개`입니다.
 
