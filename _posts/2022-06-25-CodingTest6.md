@@ -2,7 +2,7 @@
 title: 코딩테스트 6. 단어 변환
 author: 꼬낄라
 date: 2022-06-24 17:00:00 +0900
-categories: [CodingTest, Programmers-Level-2]
+categories: [CodingTest, Programmers-Level-3]
 tags: [느리지만 확실하게 !, langsam aber sicher,Java]     # TAG names should always be lowercase
 ---
 # 설명
